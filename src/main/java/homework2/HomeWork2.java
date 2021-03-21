@@ -25,7 +25,4 @@ public class HomeWork2 {
             m[i][n-i-1]=1;
         }
     }
-    public static void main(String[] args) {
-        System.out.println();
-    }
 }
