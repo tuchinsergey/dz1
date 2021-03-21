@@ -5,7 +5,6 @@ public class HomeWork2 {
         for (int i = 0; i<a.length; i++) {
             a[i] = (a[i] + 1)% 2;
         }
-
     }
     static void task2(int n) {
         int [] a = new  int[n];
@@ -18,5 +17,15 @@ public class HomeWork2 {
                 a[i]*=2;
             }
         }
+    }
+    static void task4 (int n) {
+        int [] [] m= new int[n][n];
+        for (int i=0; i < n; i++) {
+            m [i] [i] = 1;
+            m[i][n-i-1]=1;
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println();
     }
 }
