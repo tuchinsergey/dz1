@@ -1,3 +1,4 @@
+
 public class homework1 {
     static double task3(double a, double b, double c, double d) {
         return a * (b + (c / d));
@@ -18,8 +19,8 @@ public class homework1 {
         System.out.println(task6(-5));
         task7(  " Сергей");
     }
-
 }
+
 
 
 
