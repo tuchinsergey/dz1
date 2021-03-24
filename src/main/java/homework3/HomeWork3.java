@@ -43,7 +43,6 @@ public class HomeWork3 {
                 try {
                     int x = in.nextInt();
                     if (x == 1) {
-                        //in.close();
                         run();
                     } else if (x == 0) {
                         System.out.println("Игра завершена");
@@ -53,7 +52,6 @@ public class HomeWork3 {
                     }
                 } catch (Exception e) {
                     System.out.println("Введите 0 или 1");
-                    //in.nextInt();
                 }
             }
     }
