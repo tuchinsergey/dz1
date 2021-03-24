@@ -55,7 +55,6 @@ public class HomeWork3 {
                 }
             }
     }
-
             public static void main(String[] args) {
         System.out.println("Вы в игре угадай число"+"У вас есть 3 попытки");
         run();
