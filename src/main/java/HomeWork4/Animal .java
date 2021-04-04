@@ -11,7 +11,7 @@ public class Animal  {
     public void animalInfo() {
         System.out.println("Животное: " + name);
     }
-    public Cat(String name, String color) {
+    public Cat(String name,) {
         this.name = name;
     }
     public class AnimalsApp {
